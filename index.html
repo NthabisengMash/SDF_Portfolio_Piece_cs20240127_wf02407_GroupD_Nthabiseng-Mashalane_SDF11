@@ -31,17 +31,13 @@
 
 <body class="bg-grey-100">
              <!--COMPONENET 1 -->
-                <!-- Main Container -->
+                    <!-- Main Container -->
             <div class="mx-auto bg-white">
-                        <!--
-                    A. In the main container with navigation and header content, the provided code sets up a responsive navigation bar using Tailwind CSS. The `mx-auto` class centers the main container horizontally. Inside this container, a flexbox layout is used (`flex`, `items-center`, `justify-between`) to arrange the navigation items and buttons. -->  
-                    
               <div class="relative flex flex-wrap items-center justify-between w-full shrink-0" > 
                         <div class="px-4">
                             <img class="h-8" src="./assets/component-1/navigation/cache-bank-logo.png" alt="bank-logo">
                         </div>
-                        <!--
-                    B. For desktop, navigation links and buttons are displayed (`md:flex`), while the mobile menu is hidden (`md:hidden`). A mobile menu toggle button is visible on small screens and, when clicked, will show the hidden mobile menu, which is styled with classes to appear vertically stacked and responsive (`flex-col`, `w-full`).-->
+                    <!--For desktop-->
                     <div class="hidden md:flex items-center justify-between text-black gap-12">
                         <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#product">Product</a>
                         <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#features">Features</a>
@@ -52,9 +48,7 @@
                         <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">log In</button>
                         <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">sign Up</button>
                     </div>
-
-                        <!--
-                    C. This is my Humburger button, IDs (mobile-menu-toggle and mobile-menu) are added for JavaScript functionality, enabling the menu to be toggled and ensuring a fully responsive page..// -->
+                    <!--Humburger button // Show JavaScript.-->
                     <button class="p-4 md:hidden" id="mobile-menu-toggle">    
                         <svg
                         fill="none"
@@ -85,9 +79,8 @@
                       </svg>
                     </button>
 
-                        <!--
-                    D. On Mobile devices, navbar remains in flex-col, meaning underneath each other when clicked.-->
-                    <div class="absolute  md:hidden flex  flex-col items-start justify-center w-full gap-3 bg-white max-h-screen top-full px-4 py-8 shadow-main " id="mobile-menu">
+                    <!--On Mobile devices-->
+                    <div class="absolute hidden md:hidden flex  flex-col items-start justify-center w-full gap-3 bg-white max-h-screen top-full px-4 py-8 shadow-main " id="mobile-menu">
                         <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#product">Product</a>
                         <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#features">Features</a>
                         <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#get-started">Get Started</a>
@@ -103,9 +96,9 @@
                 <!-- Wide full-width container for additional content -->
             <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5 ml-1 mr-6" id="product">
                 <!--
-                A. This section t creates a responsive, full-width container using Tailwind CSS, designed to display additional content. It uses a grid layout to switch from a single column on small screens to two columns on medium and larger screens. The left column contains a heading, a paragraph, and two buttons, all centered on small screens and aligned to the start on large screens. The right column, which contains an image, is hidden on small screens and shown on medium and larger screens.
+                A. This section t creates a responsive, full-width container using  a grid layout to switch from a single column on small screens to two columns on medium and larger screens. The left column contains a heading, a paragraph, and two buttons, all centered on small screens and aligned to the start on large screens. The right column, which contains an image, is hidden on small screens and shown on medium and larger screens.
 
-                Tailwind classes are used to control spacing, text alignment, and responsiveness. The buttons include styles for padding, font weight, color, and hover effects. IDs are added for JavaScript functionality, allowing for interactive elements on the page.-->
+                Tailwind classes are used to control spacing, text alignment, and responsiveness. The buttons include styles for padding, font weight, color, and hover effects. -->
                 <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
                     <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900 ml-6 mr-6">
                         The Clever place to keep Cache 
@@ -129,7 +122,7 @@
 
             <section class="w-full">
                 <!--
-                B. This section showcases endorsements from global companies, using Tailwind CSS to style and arrange elements. It features a container centered horizontally and vertically, containing a text heading and several SVG icons of company logos. The logos are displayed in a responsive grid layout with adjustable spacing, ensuring they look good on all screen sizes. The text is styled with center alignment, dark grey color, and a larger font size to emphasize the endorsements.-->
+                B. This section showcases endorsements .The logos are displayed in a responsive grid layout with adjustable spacing, ensuring they look good on all screen sizes. The text is styled with center alignment, dark grey color, and a larger font size to emphasize the endorsements.-->
                     <div class="container flex flex-col items-center gap-8 mx-auto my-48">
                         <p class="text-center text-dark-grey-600 font-semibold mb-10 text-2xl">
                             Endorsed by global comapnies like
