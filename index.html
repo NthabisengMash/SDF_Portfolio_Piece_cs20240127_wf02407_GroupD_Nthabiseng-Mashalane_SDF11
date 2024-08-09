@@ -95,15 +95,10 @@
              <!--COMPONENET 2-->
                 <!-- Wide full-width container for additional content -->
             <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5 ml-1 mr-6" id="product">
-                <!--
-                A. This section t creates a responsive, full-width container using  a grid layout to switch from a single column on small screens to two columns on medium and larger screens. The left column contains a heading, a paragraph, and two buttons, all centered on small screens and aligned to the start on large screens. The right column, which contains an image, is hidden on small screens and shown on medium and larger screens.
-
-                Tailwind classes are used to control spacing, text alignment, and responsiveness. The buttons include styles for padding, font weight, color, and hover effects. -->
                 <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
                     <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900 ml-6 mr-6">
                         The Clever place to keep Cache 
                     </h1>
-
                     <p class="mb-6 text-base font-normal leading-7 lg:w-3/4 text-dark-grey-900 ml-6 mr-6">
                         Cache bank is designed exclusively for software developers. We understand your financial needs and are as unique as the code you write. Our services offer cutting-edge  fianancial solutions that help you take care of your cash.
                     </p>
@@ -121,8 +116,6 @@
             </section>
 
             <section class="w-full">
-                <!--
-                B. This section showcases endorsements .The logos are displayed in a responsive grid layout with adjustable spacing, ensuring they look good on all screen sizes. The text is styled with center alignment, dark grey color, and a larger font size to emphasize the endorsements.-->
                     <div class="container flex flex-col items-center gap-8 mx-auto my-48">
                         <p class="text-center text-dark-grey-600 font-semibold mb-10 text-2xl">
                             Endorsed by global comapnies like
@@ -191,7 +184,6 @@
 
                  <!--COMPONENET 3-->
             <div class="container mx-auto py-10 flex flex-col items-center justify-center">
-                    <!--The code defines a centered container with padding and flexbox layout, containing a heading and a paragraph. The heading has large, bold text and the paragraph provides a brief description of tailored financial solutions for software developers. The styles include responsive text sizes and colors.-->
 
                 <div class=" flex flex-col items-center justify-center mt-1">
                         <h1 class="mb-4 text3xl lg:text-4xl font-extrabold text-dark-grey-900 text-center">
@@ -203,9 +195,6 @@
                 </div>
         
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20" id="features">
-                    <!--Overall, this code creates a section with a set of feature cards that adapt to different screen sizes, each card displaying an icon and some descriptive text. The use of Tailwind CSS classes simplifies the styling and responsiveness, making the section visually appealing and functional across various devices.-->
-
-                    <!--The main container uses a CSS Grid layout (grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3) to create a responsive grid that adjusts the number of columns based on the screen size. On small screens, it shows one column; on medium screens, two columns; and on large screens, three columns. The gap-10 class adds spacing between the grid items, and mt-20 adds top margin-->
 
                     <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
                         <div class="flex items-center justify-center w-16 h-12 rounded-2xl bg-green-500">
@@ -328,23 +317,11 @@
                 <!--Getting Started-->
                 <div class="w-full" id="get-started" >
                     <div class="container flex flex-col items-center gap-16 mx-auto my-32">
-                        <!--
-                    Layout Structure:
-                    Container: Wraps the content and centers it horizontally, with mx-auto and my-32 for margin and spacing.
-                    Grid Layout: Used to place the content in two columns on large screens and one column on smaller screens, improving responsiveness.-->
+                        
                         <div class="grid w-full grid-cols-1 gap-32 lg:grid-cols-2" >
                             <div class="bg-cover bg-center hidden lg:block rounded-3xl" style="background-image:url(./assets/component-4/getting-started.png)">
                             </div>
-                    <!--
-                    Visual Design:
-                    Background Image: The bg-cover bg-center class and inline style set a background image for the left column on larger screens, providing visual interest.
-                    Styling: Tailwind CSS classes are used for typography, spacing, and colors, ensuring a consistent look and feel.
-                    Content Sections:
-                    Header and Description: The h2 tag introduces the section, and the p tag provides a brief overview of the account setup process.
-                    Steps: Each step is outlined with a number, heading, and description. Steps are styled with different background colors for visual distinction and organized into a grid for clarity.
-                    Responsive Design:
-                    Grid Columns: The layout adjusts from a single column on smaller screens to two columns on larger screens, making the design adaptable to various device sizes.
-                    Visibility: The image is hidden on smaller screens to keep the layout clean and focus on the text.-->
+    
                             <div class="flex flex-col gap-16 ">
                                 <div class="flex flex-col gap-2 text-center md:text-start">
                                     <h2 class="text-3xl font-extrabold md:text-4xl lg:text-5xl text-dark-grey-900">How Cache Works?</h2>
@@ -359,7 +336,6 @@
                                         white-space-collapse: preserve;">Visit Cache Bank Website</span></h3>
                                         <p lass="text-base font-medium leading-7 text-dark-grey-600"><span style="color: rgb(55, 65, 81); font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif">Go to Cache Bank, click "Sign Up" or "Open an Account." </span></p>
                                     </div>
-
                                     <div class="flex flex-col items-start gap-1">
                                         <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500">
                                             <span class="text-base font-bold leading-7 text-white">2</span>
@@ -396,10 +372,8 @@
                 <div class="w-full" id="contact">
                 <!--Grid Container-->
             <div class="container flex flex-col items-center gap-16 mx-auto my-32">
-                <!--the content inside the div is aligned in a column, with items centered horizontally and spaced evenly. Additionally, the container has significant margins on the top and bottom to create vertical spacing within the layout.-->
-                <!--Card list-->
+               
                 <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-                    <!--to create a responsive grid layout. The grid initially has one column and evenly spaced items. On medium-sized screens, it adjusts to two columns, and on large screens, it expands to three columns, ensuring a flexible and adaptable layout across different screen sizes. The w-full class ensures the grid takes up the full width of its container.-->
                     <!--Card-->
                     <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
                         <span>
